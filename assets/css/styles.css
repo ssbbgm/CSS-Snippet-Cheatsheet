@@ -1,6 +1,17 @@
-h1, header {
+h1, header, footer {
     display:flex;
     flex-direction: row;
     justify-content: center;
     margin: 0%;
+}
+
+.content-box {
+    display: inline-grid;
+    flex-direction: row;
+    border: dotted;
+}
+
+
+pre {
+    text-align: left;
 }
