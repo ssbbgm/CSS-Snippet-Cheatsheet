@@ -8,10 +8,36 @@ h1, header, footer {
 .content-box {
     display: inline-grid;
     flex-direction: row;
+    padding: 15px;
     border: dotted;
+    width: 30%;
 }
 
+.top-row .content-box-header {
+  position: fixed;
+  top: 32px;
+  color: plum;
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 28%;
+  padding: 2px;
+}
 
 pre {
-    text-align: left;
+    /* text-align: left; */
+    margin-left: -80px;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
